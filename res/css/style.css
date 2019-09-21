@@ -40,6 +40,10 @@ body > header {
   padding: 7.5px;
 }
 
+.courses-table td + td {
+  color: #424242;
+}
+
 .image-section img {
   width: 200px;
 }
