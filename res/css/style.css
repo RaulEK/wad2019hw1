@@ -1,0 +1,30 @@
+body > header{
+    text-align: center;
+}
+
+#content{
+    display:flex;
+}
+
+.fullWidth{
+    margin-left: 200px;
+}
+
+.alignCenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexColumn{
+    flex-direction: column;
+}
+
+@media screen and (max-width: 1440px) {
+    .fullWidth{
+        width:100%;
+        margin-left: 0;
+    }
+}
+
+
